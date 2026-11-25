@@ -1,6 +1,6 @@
 import os
 
-LINE = "fix: the 2am version of me left a comment saying 'trust me'; I no longer trust either of us"
+LINE = "fix: the bug I wrote at midnight has been promoted to a feature by the bug I wrote at 2am"
 
 # Gate: entry must be 1-200 characters, one line, not only whitespace.
 assert 1 <= len(LINE) <= 200 and LINE.strip() == LINE
